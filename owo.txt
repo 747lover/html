@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>html de la inceput</title>
+    </head>
+    <body>
+        <h1>html</h1>
+
+        <h2>link</h2>
+        <a href="https://ro.wikipedia.org/wiki/Pagina_principal%C4%83">wiki</a>
+        <h2>imagine</h2>
+        <img src="https://cdn.britannica.com/84/73184-004-E5A450B5/Sunflower-field-Fargo-North-Dakota.jpg"wid th="auto" height="200">
+        <h1>texte smechere</h1>
+        <p><strong>owo</strong>,<irs>owo</irs>,<i>owo</i></p>
+        <h1>tabele</h1>
+        <table style="width:100%;border:2px solid ">
+        -->ce am pus la style nu e necesar
+            <tr>
+              <th>nr de ordine</th>
+              <th>nume</th>
+              <th>marime</th>
+              <th>tip de masa</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Mihai</td>
+              <td>Mica</td>
+              <td>de bucatarie</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>ionel</td>
+              <td>mare</td>
+              <td>birou</td>
+            </tr>
+          </table>
+          <h1>un style la tabel smecher</h1>
+          <table style = "border-collapse:collapse;width:100%;">
+            <tr>
+              <th >numar de ordine</th>
+              <th >prenume</th>
+              <th >nume</th>
+              <th >clasa</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>ionica</td>
+              <td>gigi</td>
+              <td>3-a</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>matei</td>
+              <td>panuta</td>
+              <td>6-c</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>tudor</td>
+              <td>juncu</td>
+              <td>6-a</td>
+            </tr>
+            
+            </table>
+-->table{border-collapse:collapse;width:100%;border;}
+-->td,th{border:3px solid red;text-align:center;padding:20px}
+--> tr:nth-child(even){background-color:cyan}
+-->    tr:nth-child(odd){background-color:blue}
+-->ce am pus la style
+<h1>liste !!!</h1>
+<ul>
+    <li>pisica</li>
+    <li>catel</li>
+    <li>maimuta</li>
+    </ul>
+    <ol>
+    <li>maldive</li>
+    <LI>dubai</LI>
+    <li>japonia</li>
+    </ol>
+    <h1>tipuri de liste</h1>
+    <ul type="disc">
+        <li>iarna</li>
+        <li>primavara</li>
+        <li>vara</li>
+        <li>toamna</li>
+        </ul>
+        <br>
+        <ul type="none">
+        <li>prajituri</li>
+        <li>biscuiti</li>
+        <li>tort</li>
+        <li>cozonac</li>
+        </ul>
+        <br>
+        <ul type="circle">
+        <li>palarie</li>
+        <li>blugi</li>
+        <li>pantaloni de trening</li>
+        <li>adidasi</li>
+        </ul>
+        <ul>
+        
+        </ul>
+        <ol>
+        <li>pizza</li>
+        <li>paste</li>
+        <li>snitel</li>
+        <li>burger</li>
+        </ol>
+        <ol>
+        <li>matematica</li>
+        <li>fizica</li>
+        <li>romana</li>
+        <li>geografie</li>
+        </ol>
+        <ol type="a">
+        <li>lipton</li>
+        <li>limonada</li>
+        <li>pepsi</li>
+        <li>coka cola</li>
+        </ol>
+        <ol type="A">
+        <li>milka</li>
+        <li>kinder</li>
+        <li>oua de ciocolata</li>
+        <li>iepuras de ciocolata</li>
+        </ol>
+<h1>divizi(div):(+ cum sa colorezi un cuvant </h1>
+<h1>
+    bucuresti
+    </h1>
+    <div style="background-color:blue;padding:20px">
+    <p>
+    București <span style="color:red"> capitala  </span>este capitalunda Românieil mai populat oraș și cel mai important centru industrial și comercial al țării. Populația stabilă de 1.883.425 de locuitori (2011) face ca Bucureștiul să fie printre marile orașe din Uniunea Europeană. Conform unor estimări ce iau în considerare persoanele fără domiciliu în oraș, sau în tranzit, Bucureștiul adună zilnic peste trei milioane de oameni. La acestea se adaugă faptul că localitățile din preajma orașului, care fac parte din Zona Metropolitană, însumează o populație de aproximativ 430.000 de locuitori.
+    </p>
+    <h1>i frame</h1>
+    <iframe src="https://ro.wikipedia.org/wiki/Wiki" height="1000" width="500" style="border:x2 solid red
+">
+</iframe>
+<h1>hai putin javascript</h1>
+</h1>
+<button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Apasa pentru data</button>
+<p id="demo">
+</p>
+<h1>hai inca putin</h1>
+<button type="button" onclick="myFunction()">
+    Click me!!
+    </button>
+    <p id="demo">
+    java script
+    </p>
+    <script>
+    function myFunction(){
+    document.getElementById("demo").innerHTML="am aparut!!!";
+    }
+    </script>
+    <h1>ultimul promit</h1>
+    <p id="demo">Acest text isi va modifica marimea si culoarea</p>
+
+    <script>
+      function functiaMea() {
+        document.getElementById("demo").style.fontSize = "30px";
+        document.getElementById("demo").style.color = "red";
+      }
+    </script>
+
+    <button type="button" onclick="functiaMea()">Da click pe mine</button>
+    
+    <noscript>
+      Ne pare rau dar browserul dumneavoastra nu accepta java scrpt
+    </noscript>
+    </body>
+
+
+</html>
